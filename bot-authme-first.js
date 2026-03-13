@@ -4,14 +4,14 @@ const { pathfinder, Movements, goals } = require('mineflayer-pathfinder');
 // Configuration - Edit these values for your server
 const config = {
   server: {
-    host: 'localhost', // Change to your server IP
-    port: 25565,
+    host: 'realcrown.falix.me', // Change to your server IP
+    port: 23184,
     version: '1.20.4' // Change to your server version
   },
   bot: {
     username: 'AFKBot', // Change to your desired bot name
     auth: 'offline', // 'offline', 'microsoft', or 'mojang'
-    password: '', // Minecraft account password (if using premium auth)
+    password: '12312333', // Minecraft account password (if using premium auth)
     authmePassword: 'change_this_password' // AuthMe password for /register and /login
   },
   serverCommands: {
